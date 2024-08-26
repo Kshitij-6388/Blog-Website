@@ -1,0 +1,22 @@
+{
+  "name": "blog_website",
+  "version": "1.0.0",
+  "description": "This is a Blog_Website",
+  "main": "index.js",
+  "scripts": {
+    "blogwebsite": "nodemon server.js"
+  },
+  "author": "Kshitij Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "dompurify": "^3.1.6",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "jsdom": "^24.1.1",
+    "marked": "^13.0.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.5.2",
+    "punycode": "^2.3.1",
+    "slugify": "^1.6.6"
+  }
+}
